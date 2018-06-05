@@ -1,6 +1,1 @@
-import { Cookies } from 'Cookies';
-
-
-export const biCommon: Object = {
-    Cookies: Cookies
-};
+export { Cookies } from 'Cookies';

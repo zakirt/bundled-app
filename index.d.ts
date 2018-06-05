@@ -1,1 +1,1 @@
-export declare const biCommon: Object;
+export { Cookies } from 'Cookies';
