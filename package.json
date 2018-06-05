@@ -10,6 +10,10 @@
     "build": "webpack && tsc",
     "compile": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakirt/bundled-app.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
