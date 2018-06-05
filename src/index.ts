@@ -4,3 +4,8 @@
 //     Cookies
 // };
 
+export class Test {
+    public testMethod(): string {
+        return '';
+    }
+}
