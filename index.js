@@ -1,5 +1,5 @@
 "use strict";
-// import { Cookies } from 'Cookies';
+// import  Cookies from 'Cookies';
 // export const biCommon: Object = {
 //     Cookies
 // };
