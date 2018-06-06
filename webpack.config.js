@@ -20,6 +20,8 @@ module.exports = {
     },
     output: {
         filename: 'bi-common-bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        library: 'biCommon',
+        libraryTarget: 'umd'
     }
 };
