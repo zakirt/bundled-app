@@ -1,2 +1,3 @@
+import { Analytics } from 'Analytics';
 import { Cookies } from 'Cookies';
-export { Cookies };
+export { Analytics, Cookies };
