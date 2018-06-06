@@ -1,5 +1,5 @@
 import { Cookies } from 'Cookies';
 
-export {
+export const biCommon: Object = {
     Cookies
  };
