@@ -2,7 +2,7 @@
  * Utility for retrieving and setting browser cookies
  */
 
-export default class Cookies {
+export class Cookies {
 
     /**
      * Sets browser cookie

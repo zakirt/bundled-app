@@ -21,4 +21,4 @@ var Cookies = /** @class */ (function () {
     };
     return Cookies;
 }());
-exports.default = Cookies;
+exports.Cookies = Cookies;

@@ -1,11 +1,5 @@
-// import  Cookies from 'Cookies';
+import { Cookies } from 'Cookies';
 
-// export const biCommon: Object = {
-//     Cookies
-// };
-
-export class Test {
-    public testMethod(): string {
-        return '';
-    }
-}
+export {
+    Cookies
+ };

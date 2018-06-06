@@ -1,3 +1,2 @@
-export declare class Test {
-    testMethod(): string;
-}
+import { Cookies } from 'Cookies';
+export { Cookies };
