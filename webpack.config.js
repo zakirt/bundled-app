@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     entry: './index.ts',
+    mode: 'development',
     devtool: 'inline-source-map',
     module: {
         rules: [
@@ -19,6 +20,8 @@ module.exports = {
     },
     output: {
         filename: 'bi-common-bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        library: 'biCommon',
+        libraryTarget: 'umd'
     }
 };
