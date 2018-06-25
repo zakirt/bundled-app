@@ -1,5 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * index.ts
+ */
 var Analytics_1 = require("Analytics");
 exports.Analytics = Analytics_1.Analytics;
 var Cookies_1 = require("Cookies");

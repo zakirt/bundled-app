@@ -19,6 +19,9 @@ var Cookies = /** @class */ (function () {
         document.cookie = name + "=" + value + expires + "; path=/";
         return this;
     };
+    Cookies.prototype.getCookie = function (name) {
+        return '';
+    };
     return Cookies;
 }());
 exports.Cookies = Cookies;
