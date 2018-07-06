@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "",
   "main": "./dist/bi-common-bundle.js",
-  "types": "index.d.ts",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "karma start",
     "start": "webpack --config webpack.config.js",
