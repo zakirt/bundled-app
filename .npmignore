@@ -2,4 +2,5 @@
 karma.conf.js
 tsconfig.json
 webpack.config.js
-dist/src/*.js
+dist/src/
+!dist/src/index.d.ts
