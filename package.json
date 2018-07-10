@@ -10,7 +10,8 @@
     "build": "webpack && tsc",
     "compile": "tsc",
     "postversion": "git push && git push --tags",
-    "release-patch": "npm version patch -m \"Bump version to %s\" && npm postversion"
+    "release-patch": "npm version patch -m \"Bump version to %s\" && npm postversion",
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
