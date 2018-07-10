@@ -9,9 +9,11 @@
     "start": "webpack --config webpack.config.js",
     "build": "webpack && tsc",
     "compile": "tsc",
-    "postversion": "git push && git push --tags",
     "release-patch": "npm version patch -m \"Bump version to %s\" && npm postversion",
-    "preversion": "npm test"
+    "preversion": "npm test && git add -A",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags",
+    "release-patch": "npm version patch -m \"Bump version to %s\""
   },
   "repository": {
     "type": "git",
