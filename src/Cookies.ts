@@ -19,7 +19,7 @@ export class Cookies {
         return this;
     }
 
-    public getCookie(name: string): string {
-        return '';
-    }
+    // public getCookie(name: string): string {
+    //     return '';
+    // }
 }
