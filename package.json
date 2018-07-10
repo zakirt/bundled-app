@@ -6,12 +6,14 @@
   "types": "dist/src/index.d.ts",
   "scripts": {
     "test": "karma start",
+    "test-once": "karma start --single-run",
     "start": "webpack --config webpack.config.js",
     "build": "webpack && tsc",
     "compile": "tsc",
-    "preversion": "npm test",
+    "preversion": "npm run test-once",
+    "version": "npm run build && git add -A dist",
     "postversion": "git push && git push --tags",
-    "release-patch": "npm version patch -m \"Bump version to %s\""
+    "release-patch": "npm version patch -m \"%s\""
   },
   "repository": {
     "type": "git",
