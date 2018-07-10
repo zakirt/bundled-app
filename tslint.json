@@ -2,6 +2,8 @@
     "defaultSeverity": "error",
     "extends": "tslint-microsoft-contrib",
     "jsRules": {},
-    "rules": {},
+    "rules": {
+        "no-implicit-dependencies": false
+    },
     "rulesDirectory": []
 }

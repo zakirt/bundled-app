@@ -330,4 +330,6 @@ ASALocalRun/
 .mfractor/
 
 .DS_Store
-package-lock.json
+package-lock
+spec/*.d.ts
+dist/spec
