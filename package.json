@@ -12,7 +12,7 @@
     "compile": "tsc",
     "preversion": "npm run test-once",
     "version": "npm run build && git add -A dist",
-    "postversion": "git push && git push --tags",
+    "postversion": "git push && git push --tags && rm -fr dist",
     "release-patch": "npm version patch -m \"%s\""
   },
   "repository": {
