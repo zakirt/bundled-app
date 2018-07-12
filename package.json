@@ -13,7 +13,7 @@
     "preversion": "npm run test-once",
     "version": "npm run build && git add . dist",
     "postversion": "git push && git push --tags",
-    "release-patch": "npm version patch -m \"%s\""
+    "release-patch": "npm version prepatch -m \"%s\""
   },
   "repository": {
     "type": "git",
