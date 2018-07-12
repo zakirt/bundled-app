@@ -11,7 +11,7 @@
     "build": "webpack && tsc",
     "compile": "tsc",
     "preversion": "npm run test-once",
-    "version": "npm run build && git add -A dist",
+    "version": "npm run build && git add . dist",
     "postversion": "git push && git push --tags",
     "release-patch": "npm version patch -m \"%s\""
   },
