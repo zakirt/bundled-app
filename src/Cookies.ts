@@ -20,6 +20,6 @@ export class Cookies {
     }
 
     public getCookie(name: string): string {
-        return 'abc';
+        return '';
     }
 }
