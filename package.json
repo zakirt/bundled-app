@@ -1,6 +1,6 @@
 {
   "name": "bundled-app",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "description": "",
   "main": "./dist/bi-common-bundle.js",
   "types": "dist/src/index.d.ts",
