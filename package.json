@@ -14,7 +14,7 @@
     "postversion": "git push && git push --tags",
     "version": "npm run build && git add . dist",
     "release-patch": "npm version prepatch -m \"%s\"",
-    "prelease": "npm version prerelease -m \"%s\""
+    "prelease": "npm version prerelease -m \"%s-pre\""
   },
   "repository": {
     "type": "git",
