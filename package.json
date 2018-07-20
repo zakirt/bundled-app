@@ -1,6 +1,6 @@
 {
   "name": "bundled-app",
-  "version": "1.0.1",
+  "version": "1.0.2-1",
   "description": "",
   "main": "./dist/bi-common-bundle.js",
   "types": "dist/src/index.d.ts",
@@ -12,7 +12,7 @@
     "compile": "tsc",
     "postversion": "git push && git push --tags",
     "version": "npm run build && git add . dist",
-    "release-patch": "npm version patch -m \"%s\"",
+    "release-patch": "npm --no-git-tag-version version patch -m \"%s\"",
     "prepatch": "npm version prepatch -m \"%s\"",
     "prerelease": "npm version prerelease -m \"%s\""
   },
