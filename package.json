@@ -10,7 +10,6 @@
     "start": "webpack --config webpack.config.js",
     "build": "webpack && tsc",
     "compile": "tsc",
-    "preversion": "npm run test-once",
     "postversion": "git push && git push --tags",
     "version": "npm run build && git add . dist",
     "release-patch": "npm version prepatch -m \"%s\"",
