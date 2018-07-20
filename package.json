@@ -15,7 +15,7 @@
     "version": "npm run build && git add . dist",
     "release-patch": "npm version prepatch -m \"%s\"",
     "prepatch": "npm version prepatch -m \"%s\"",
-    "prelease": "npm version prerelease -m \"%s\""
+    "prerelease": "npm version prerelease -m \"%s\""
   },
   "repository": {
     "type": "git",
