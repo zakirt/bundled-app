@@ -1,5 +1,5 @@
 /**
- * Utility for retrieving and setting browser cookies
+ * Utility for retrieving and setting browser cookies.
  */
 export declare class Cookies {
     /**
