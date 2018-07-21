@@ -1,6 +1,6 @@
 /**
- *
+ * GA analytics interface.
  */
 export declare class Analytics {
-    eventTrack(eventData: Object): Analytics;
+    trackEvent(eventData: Object): Analytics;
 }
