@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Analytics = /** @class */ (function () {
     function Analytics() {
     }
-    Analytics.prototype.eventTrack = function (eventData) {
+    Analytics.prototype.trackEvent = function (eventData) {
         return this;
     };
     return Analytics;
