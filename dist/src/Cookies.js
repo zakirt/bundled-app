@@ -1,6 +1,6 @@
 "use strict";
 /**
- * Utility for retrieving and setting browser cookies
+ * Utility for retrieving and setting browser cookies.
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var Cookies = /** @class */ (function () {
