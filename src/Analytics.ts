@@ -2,7 +2,7 @@
  * GA analytics interface.
  */
 export class Analytics {
-    public eventTrack(eventData: Object): Analytics {
+    public trackEvent(eventData: Object): Analytics {
         return this;
     }
 }
